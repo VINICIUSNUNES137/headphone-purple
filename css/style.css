@@ -13,7 +13,9 @@ body {
 
 header {
     grid-area: header;
-    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
         
 }
 
