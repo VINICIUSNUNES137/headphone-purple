@@ -1,36 +1,33 @@
 body {
-    height: 100vh;
-    background-color: #76045D;
-    display: grid;
-    grid-template-areas: 
+  height: 100vh;
+  background-color: #76045d;
+  display: grid;
+  grid-template-areas:
     "header"
     "main"
     "footer";
-    grid-template-rows: 100px 1fr 100px;
-    padding-right: 100px;
-    font-family: 'Montserrat', sans-serif;
+  grid-template-rows: 100px 1fr 100px;
+  padding-right: 100px;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 header {
-    grid-area: header;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-        
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 main {
-    grid-area: main;
-    display: grid;    
-    grid-template-areas: "description product social";
-    grid-template-columns: 380px 1fr 48px;
-    padding-left: 100px;
+  grid-area: main;
+  display: grid;
+  grid-template-areas: "description product social";
+  grid-template-columns: 380px 1fr 48px;
+  padding-left: 100px;
 }
 
-
 footer {
-    grid-area: footer;
-    background-color: lightskyblue;
+  grid-area: footer;
+  display: flex;
+  gap: 2px;
 }

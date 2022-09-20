@@ -1,5 +1,7 @@
 .social-media {
     grid-area: social;
-    background-color: burlywood;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
 }
